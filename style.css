@@ -16,13 +16,17 @@ header, article, footer {
 /* Header */
 
 header {
-  background-color: white;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 106px;
   text-transform: uppercase;
   padding: 0 10%;
+}
+
+header h1 img {
+  width: 120px;
 }
 
 /* Navigation */
@@ -39,7 +43,7 @@ nav ul li:not(:last-child) {
 
 header a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 /* Main */
